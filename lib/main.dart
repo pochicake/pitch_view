@@ -14,8 +14,8 @@ class MyApp extends StatelessWidget {
     Logger.writeLine("Starting app...");
     return MaterialApp(
       title: 'Pitch View',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
       home: const MyHomePage(),
